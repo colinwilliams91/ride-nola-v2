@@ -1,0 +1,77 @@
+[^1]: legend:
+	- [/] _section_ awaiting approval
+	- [>] _feature_ awaiting approval
+	- [!] _CMS_ optimization found
+	- [I] _details_ on optimization
+	- [?] questions for client
+	- [x] section/feature approved/agreed
+	- [-] omitted
+
+[^1]
+- [/] _section_ awaiting approval/agreement
+	- [>] _feature_ awaiting approval
+- [!] _CMS_ optimization found
+	- [I] _details_ on optimization
+- [?] questions for client
+- [x] section/feature approved/agreed
+- [-] section/feature omitted
+
+### CMS ARCHITECTURE & SECTIONS ANATOMY
+
+- [/] [Header]
+	- [>] [Banner Image]
+	- [!] ["Sections" Nav Links]
+		- [I] "add section" at risk, "hide section" enabled
+	- [!] [Socials]
+		- [I] share this with [Footer].[Socials]
+- [/] [About]
+	- [>] [About – Main](https://rideneworleans.org/about/)
+		- [>] [Staff and Board](https://rideneworleans.org/about/staff-and-board/)
+		- [>] [Press](https://rideneworleans.org/about/press/)
+		- [x] [Updates - "Blogs" List](https://rideneworleans.org/?page_id=7653)
+			- [>] [Blog Detail]
+		- [>] [Champions Circle](https://rideneworleans.org/champions-circle/)
+- [/] [Analysis]
+	- [-] [Analysis – Main](https://rideneworleans.org/the-state-of-transit-of-2018/) (should go away, shows old data redundant)~~
+		- [!] [State of Transit Reports](https://rideneworleans.org/stateoftransitreports/)
+			- [I] map -> list component from where data ingress happens
+		- [>] [Policy Committee](https://rideneworleans.org/analysis/policy-committee/)
+		- [>] [Reports and Briefings](https://rideneworleans.org/analysis/reports-and-briefings/)
+		- [>] [Transit Open Data Portal](https://rideneworleans.org/opendata/)
+- [/] [Rider Voice]
+	- [-] [Rider Voice – Main](https://rideneworleans.org/rider-voice/coalition-for-quality-transit/) (-> to [Coalition for Quality Transit])
+		- [>] [Coalition for Quality Transit](https://rideneworleans.org/rider-voice/coalition-for-quality-transit/)
+		- [>] [Youth Transit Leadership Cohort](https://rideneworleans.org/rider-voice/ytlc-youth-transit-leadership-cohort/) 
+		- [>] [Youth Transit Literacy Workshops](https://rideneworleans.org/youth-transit-literacy-workshops/)
+- [/] [Winning Change]
+	- [-] [Winning Change – Main](https://rideneworleans.org/winning-change/campaigns/) (-> to [Campaigns])
+		- [>] [Campaigns](https://rideneworleans.org/winning-change/campaigns/)
+- [/] [Join Us]
+	- [!] [Join Us – Main](https://rideneworleans.org/join-us/)
+		- [I] share with [Join Us Section Nav Link Dropdown URLs]
+	- [!] inconsistencies in redirects
+		- [>] [Newsletter signup - ext. Form](https://rideneworleans.nationbuilder.com/newsletter_signup)
+		- [>] [Coalition for Quality Transit signup - ext. Form](https://rideneworleans.nationbuilder.com/coalition_for_quality_transit_signup)
+		- [>] [Ride Volunteer - ext. Form](https://rideneworleans.nationbuilder.com/ride_volunteer)
+- [/] [Opportunity Pass]
+	- [!] [Opportunity Pass: Info – Main](https://rideneworleans.org/opportunitypass/)
+		- [I] share inner-nav buttons w/ [Opportunity Pass Section Nav Link Dropdown URLs]
+		- [!] [Opportunity Pass: Info](https://rideneworleans.org/opportunitypass/#info)
+			- [I] redundant with [Info - Main]
+		- [>] [Opportunity Pass: FAQs](https://rideneworleans.org/opportunitypass/faqs/#faqs)
+		- [>] [Opportunity Pass: Resources](https://rideneworleans.org/opportunitypass/resources/#resources)
+- [/] [Donate]
+	- [>] [3rd Party CommitChange](https://us.commitchange.com/la/new-orleans/ride-new-orleans)
+		- [>] [RIDE NPO Main]
+		- [>] [Donation Amount Buttons]
+- [/] [Footer]
+	- [>] [Contact]
+	- [!] [Socials]
+		- [I] share this with [Header].[Socials] 
+	- [!] ~~[Copyright]~~
+		- [I] auto generate on `jan 1st` repeating
+- [/] ["Newsletter/Popover"] (do we want this anywhere else?)
+	- [>] [Landing Page Arrival Trigger]
+- [x] [Featured Background]
+	- [!] file upload
+		- [I] one static video
