@@ -1,3 +1,6 @@
+![cms diagram png](cms_diagram_canvas-1.png)
+
+
 ```mermaid
 flowchart TD
 	section["Section<br/>add: required<br/>hide: supported<br/>modify: required"]
