@@ -1,7 +1,7 @@
 # Scope Summary v1
 
 This table translates the internal working notes into plain language for client review.
-> "*Section, Feature, Page, Block*" are names of the CMS components. For CMS taxonomy and anatomy please refer to: [CMS Hierarchy](../ARCHITECTURE/CMS.md) and [CMS Components Diagram](../ARCHITECTURE/DIAGRAM.canvas)
+> "*Section, Feature, Page, Block*" are names of the CMS components. For CMS taxonomy and anatomy please refer to: [CMS Hierarchy](https://pages.haxiom.io/@cw-ride-notes/CMS) and [CMS Components Diagram](https://pages.haxiom.io/@cw-ride-notes/COMPONENTS_DIAGRAM)
 
 | Feature | Included in Base Scope | Not Included in Base Scope | Risks, Questions, or Optional Add-Ons |
 | --- | --- | --- | --- |

@@ -1,22 +1,13 @@
-[^1]: legend:
-	- [/] _section_ awaiting approval
-	- [>] _feature_ awaiting approval
-	- [!] _CMS_ optimization found
-	- [I] _details_ on optimization
-	- [?] questions for client
-	- [x] section/feature approved/agreed
-	- [-] omitted
-
-[^1]
+##### legend:
 - [/] _section_ awaiting approval/agreement
-	- [>] _feature_ awaiting approval
+- [>] _feature_ awaiting approval
 - [!] _CMS_ optimization found
-	- [I] _details_ on optimization
+- [I] _details_ on optimization
 - [?] questions for client
 - [x] section/feature approved/agreed
 - [-] section/feature omitted
 
-### CMS ARCHITECTURE & SECTIONS ANATOMY
+### Comprehensive Site Map v1
 
 - [/] [Header]
 	- [>] [Banner Image]
@@ -41,7 +32,7 @@
 - [/] [Rider Voice]
 	- [-] [Rider Voice – Main](https://rideneworleans.org/rider-voice/coalition-for-quality-transit/) (-> to [Coalition for Quality Transit])
 		- [>] [Coalition for Quality Transit](https://rideneworleans.org/rider-voice/coalition-for-quality-transit/)
-		- [>] [Youth Transit Leadership Cohort](https://rideneworleans.org/rider-voice/ytlc-youth-transit-leadership-cohort/) 
+		- [>] [Youth Transit Leadership Cohort](https://rideneworleans.org/rider-voice/ytlc-youth-transit-leadership-cohort/)
 		- [>] [Youth Transit Literacy Workshops](https://rideneworleans.org/youth-transit-literacy-workshops/)
 - [/] [Winning Change]
 	- [-] [Winning Change – Main](https://rideneworleans.org/winning-change/campaigns/) (-> to [Campaigns])
@@ -67,7 +58,7 @@
 - [/] [Footer]
 	- [>] [Contact]
 	- [!] [Socials]
-		- [I] share this with [Header].[Socials] 
+		- [I] share this with [Header].[Socials]
 	- [!] ~~[Copyright]~~
 		- [I] auto generate on `jan 1st` repeating
 - [/] ["Newsletter/Popover"] (do we want this anywhere else?)
